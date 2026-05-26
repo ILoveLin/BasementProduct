@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\Administrator\\\\Desktop\\\\claudecode\\\\ProductPlan\" -Recurse -Depth 2)",
+      "Bash(Select-Object FullName, Length, LastWriteTime)",
+      "Bash(Format-Table -AutoSize)",
+      "PowerShell($word = New-Object -ComObject Word.Application; $word.Visible = $false; $doc = $word.Documents.Open\\(\"c:\\\\Users\\\\Administrator\\\\Desktop\\\\claudecode\\\\ProductPlan\\\\基层智治综合协同平台产品规划方案书.docx\"\\); $doc.Content.Text; $doc.Close\\(\\); $word.Quit\\(\\))",
+      "Bash(python -c \"import docx; print\\('python-docx available'\\)\")",
+      "Bash(where pandoc *)",
+      "PowerShell($bytes = [System.IO.File]::ReadAllBytes\\(\"c:\\\\Users\\\\Administrator\\\\Desktop\\\\claudecode\\\\ProductPlan\\\\N场景需求匹配与开发全流程_扁平风.png\"\\); $base64 = [System.Convert]::ToBase64String\\($bytes\\); Set-Content -Path \"c:\\\\Users\\\\Administrator\\\\Desktop\\\\claudecode\\\\ProductPlan\\\\flow_base64.txt\" -Value $base64 -Encoding ASCII; Write-Output \"Length: $\\($base64.Length\\)\")",
+      "PowerShell($bytes = [System.IO.File]::ReadAllBytes\\(\"c:\\\\Users\\\\Administrator\\\\Desktop\\\\claudecode\\\\ProductPlan\\\\14N_架构图.png\"\\); $base64 = [System.Convert]::ToBase64String\\($bytes\\); Set-Content -Path \"c:\\\\Users\\\\Administrator\\\\Desktop\\\\claudecode\\\\ProductPlan\\\\arch_base64.txt\" -Value $base64 -Encoding ASCII; Write-Output \"Length: $\\($base64.Length\\)\")"
+    ]
+  }
+}
