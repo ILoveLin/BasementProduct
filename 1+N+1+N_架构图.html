@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>基层智治综合协同平台 · 1+N+1+N 总体架构图</title>
+<style>
+  body { margin: 0; padding: 20px; background: #f0f2f5; display: flex; justify-content: center; }
+  svg { max-width: 100%; height: auto; }
+</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1280" font-family="Microsoft YaHei, SimHei, sans-serif">
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="1" dy="2" stdDeviation="2.5" flood-opacity="0.12"/>
+    </filter>
+    <filter id="shadowDeep">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.18"/>
+    </filter>
+    <filter id="glow">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#2b579a" flood-opacity="0.25"/>
+    </filter>
+    <linearGradient id="gradBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a3a5c"/>
+      <stop offset="100%" stop-color="#2b579a"/>
+    </linearGradient>
+    <linearGradient id="gradAI" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c3483"/>
+      <stop offset="100%" stop-color="#8e44ad"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1600" height="1280" fill="#ffffff" rx="0"/>
+
+  <!-- Title Bar -->
+  <rect x="0" y="0" width="1600" height="58" fill="#1a3a5c" rx="0"/>
+  <text x="800" y="37" text-anchor="middle" fill="white" font-size="24" font-weight="bold">基层智治综合协同平台 · "1+N+1+N" 总体架构图（PFAS体系）</text>
+
+  <!-- Subtitle -->
+  <rect x="0" y="58" width="1600" height="28" fill="#e8edf5" rx="0"/>
+  <text x="800" y="77" text-anchor="middle" fill="#2b579a" font-size="12" font-weight="bold">1个基础平台（Platform） + N个生态平台（Federation） + 1个AI赋能中心（AI） + N个治理场景（Scenarios）</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- Layer 4: N个治理场景 (Top) -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="20" y="100" width="1560" height="28" fill="#fdf0ed" rx="4"/>
+  <text x="800" y="119" text-anchor="middle" fill="#c0392b" font-size="13" font-weight="bold">第四层：N个治理场景（Scenarios）—— 靶向解决一线痛点，复合应用层</text>
+
+  <!-- 公安治理 -->
+  <rect x="60" y="140" width="340" height="150" rx="10" fill="#fdedec" stroke="#e74c3c" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="60" y="140" width="340" height="38" rx="10" fill="#c0392b"/>
+  <rect x="60" y="158" width="340" height="20" fill="#c0392b"/>
+  <text x="230" y="165" text-anchor="middle" fill="white" font-size="15" font-weight="bold">公安治理</text>
+  <text x="75" y="198" fill="#333" font-size="11.5">· AI眼镜+无人机立体巡防，异常自动比对</text>
+  <text x="75" y="218" fill="#333" font-size="11.5">· 二维码门牌实现出租屋扫码登记</text>
+  <text x="75" y="238" fill="#333" font-size="11.5">· 重点人员管控与轨迹追踪</text>
+  <text x="75" y="258" fill="#333" font-size="11.5">· 治安态势一张图实时监测</text>
+  <text x="75" y="278" fill="#999" font-size="10.5">民警 / 辅警 / 网格员</text>
+
+  <!-- 住建物业管理 -->
+  <rect x="430" y="140" width="340" height="150" rx="10" fill="#fef9e7" stroke="#e67e22" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="430" y="140" width="340" height="38" rx="10" fill="#d35400"/>
+  <rect x="430" y="158" width="340" height="20" fill="#d35400"/>
+  <text x="600" y="165" text-anchor="middle" fill="white" font-size="15" font-weight="bold">住建物业管理</text>
+  <text x="445" y="198" fill="#333" font-size="11.5">· 打通维修基金平台，居民扫码报修</text>
+  <text x="445" y="218" fill="#333" font-size="11.5">· AI智能派单、资金透明流转</text>
+  <text x="445" y="238" fill="#333" font-size="11.5">· 无人机巡查建筑安全/工地裸土</text>
+  <text x="445" y="258" fill="#333" font-size="11.5">· 房屋绑定审核与楼栋信息展示</text>
+  <text x="445" y="278" fill="#999" font-size="10.5">住建工作人员 / 物业人员 / 业主</text>
+
+  <!-- 综治网格员 -->
+  <rect x="800" y="140" width="340" height="150" rx="10" fill="#f0faf4" stroke="#27ae60" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="800" y="140" width="340" height="38" rx="10" fill="#1e8449"/>
+  <rect x="800" y="158" width="340" height="20" fill="#1e8449"/>
+  <text x="970" y="165" text-anchor="middle" fill="white" font-size="15" font-weight="bold">综治网格员</text>
+  <text x="815" y="198" fill="#333" font-size="11.5">· 语音上报、AI填单、自动生成工单</text>
+  <text x="815" y="218" fill="#333" font-size="11.5">· 任务自动分拨与绩效考核</text>
+  <text x="815" y="238" fill="#333" font-size="11.5">· 二维码门牌采集"一次采集多方复用"</text>
+  <text x="815" y="258" fill="#333" font-size="11.5">· 格友圈跨部门协同</text>
+  <text x="815" y="278" fill="#999" font-size="10.5">网格员 / 综治工作人员 / 便民服务员</text>
+
+  <!-- 街道社区 -->
+  <rect x="1170" y="140" width="370" height="150" rx="10" fill="#f5eef8" stroke="#8e44ad" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="1170" y="140" width="370" height="38" rx="10" fill="#6c3483"/>
+  <rect x="1170" y="158" width="370" height="20" fill="#6c3483"/>
+  <text x="1355" y="165" text-anchor="middle" fill="white" font-size="15" font-weight="bold">街道社区</text>
+  <text x="1185" y="198" fill="#333" font-size="11.5">· 一块屏统览辖区态势，分色图直观呈现</text>
+  <text x="1185" y="218" fill="#333" font-size="11.5">· 对接E呼即办快速响应民生诉求</text>
+  <text x="1185" y="238" fill="#333" font-size="11.5">· AI自动生成治理月报</text>
+  <text x="1185" y="258" fill="#333" font-size="11.5">· 便民服务大厅一窗受理</text>
+  <text x="1185" y="278" fill="#999" font-size="10.5">社区干部 / 社工 / 群众</text>
+
+  <!-- Arrow from Scenes to AI -->
+  <line x1="800" y1="290" x2="800" y2="315" stroke="#8e44ad" stroke-width="2.5" marker-end="url(#arrowDown)"/>
+  <text x="815" y="308" fill="#8e44ad" font-size="10">调</text>
+  <text x="815" y="320" fill="#8e44ad" font-size="10">用</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- Layer 3: 1个AI赋能中心 (Center) -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="20" y="325" width="1560" height="30" fill="#f5eef8" rx="4"/>
+  <text x="800" y="345" text-anchor="middle" fill="#6c3483" font-size="13" font-weight="bold">第三层：1个AI赋能中心（AI）—— 让知识自动工作，平台级智慧大脑</text>
+
+  <!-- Central AI Box -->
+  <rect x="320" y="368" width="960" height="172" rx="12" fill="url(#gradAI)" filter="url(#glow)"/>
+  <text x="800" y="400" text-anchor="middle" fill="#ffd700" font-size="20" font-weight="bold">AI 赋能中心（智慧大脑）</text>
+  <text x="800" y="423" text-anchor="middle" fill="#d5c4e5" font-size="12">聚焦治理领域最宝贵的历史案例库、知识库、制度库，实现"自动编辑"</text>
+
+  <!-- 4 AI Capability Cards -->
+  <rect x="345" y="442" width="210" height="82" rx="8" fill="rgba(255,255,255,0.15)"/>
+  <text x="450" y="468" text-anchor="middle" fill="#ffd700" font-size="13" font-weight="bold">智能案例编写与推荐</text>
+  <text x="450" y="488" text-anchor="middle" fill="#e8d5f5" font-size="10.5">网格员语音简述</text>
+  <text x="450" y="505" text-anchor="middle" fill="#e8d5f5" font-size="10.5">AI自动匹配案例 → 生成简报初稿</text>
+
+  <rect x="573" y="442" width="210" height="82" rx="8" fill="rgba(255,255,255,0.15)"/>
+  <text x="678" y="468" text-anchor="middle" fill="#ffd700" font-size="13" font-weight="bold">知识库智能问答</text>
+  <text x="678" y="488" text-anchor="middle" fill="#e8d5f5" font-size="10.5">基层秒级政策查询</text>
+  <text x="678" y="505" text-anchor="middle" fill="#e8d5f5" font-size="10.5">"治理通晓"助手 → 新人1周上岗</text>
+
+  <rect x="800" y="442" width="210" height="82" rx="8" fill="rgba(255,255,255,0.15)"/>
+  <text x="905" y="468" text-anchor="middle" fill="#ffd700" font-size="13" font-weight="bold">制度库自动校验</text>
+  <text x="905" y="488" text-anchor="middle" fill="#e8d5f5" font-size="10.5">事件分拨/结案自动比对</text>
+  <text x="905" y="505" text-anchor="middle" fill="#e8d5f5" font-size="10.5">时限格式合规校验 → 保障规范</text>
+
+  <rect x="1028" y="442" width="228" height="82" rx="8" fill="rgba(255,255,255,0.15)"/>
+  <text x="1142" y="468" text-anchor="middle" fill="#ffd700" font-size="13" font-weight="bold">治理数据洞察与预判</text>
+  <text x="1142" y="488" text-anchor="middle" fill="#e8d5f5" font-size="10.5">深度挖掘运行数据</text>
+  <text x="1142" y="505" text-anchor="middle" fill="#e8d5f5" font-size="10.5">区域风险预测 → 数据产品化</text>
+
+  <!-- AI to Base arrow (down) -->
+  <line x1="800" y1="540" x2="800" y2="585" stroke="#8e44ad" stroke-width="2.5" marker-end="url(#arrowDown)"/>
+  <text x="815" y="567" fill="#8e44ad" font-size="10">能力注入</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- Layer 2: N个生态平台 -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="20" y="585" width="1560" height="30" fill="#eafaf1" rx="4"/>
+  <text x="800" y="605" text-anchor="middle" fill="#1e8449" font-size="13" font-weight="bold">第二层：N个生态平台（Federation）—— 能力与联接延伸，开放对接市场优秀产品与本地政务平台</text>
+
+  <!-- LEFT: 智能硬件类 -->
+  <rect x="60" y="630" width="700" height="230" rx="10" fill="#f0faf4" stroke="#27ae60" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="60" y="630" width="700" height="36" rx="10" fill="#1e8449"/>
+  <rect x="60" y="650" width="700" height="16" fill="#1e8449"/>
+  <text x="410" y="654" text-anchor="middle" fill="white" font-size="14" font-weight="bold">智能硬件类 —— 市场优秀产品能力引入</text>
+
+  <!-- 5 Hardware Cards -->
+  <rect x="80" y="678" width="125" height="82" rx="8" fill="white" stroke="#a3d9b1" stroke-width="1.5"/>
+  <text x="142" y="703" text-anchor="middle" fill="#1e8449" font-size="12" font-weight="bold">AI眼镜</text>
+  <text x="142" y="720" text-anchor="middle" fill="#666" font-size="10">解放双手·巡查记录</text>
+  <text x="142" y="738" text-anchor="middle" fill="#666" font-size="10">语音上报·远程标注</text>
+  <text x="142" y="754" font-size="9" text-anchor="middle" fill="#999">AI识别可疑人员/车辆</text>
+
+  <rect x="215" y="678" width="125" height="82" rx="8" fill="white" stroke="#a3d9b1" stroke-width="1.5"/>
+  <text x="277" y="703" text-anchor="middle" fill="#1e8449" font-size="12" font-weight="bold">二维码门牌</text>
+  <text x="277" y="720" text-anchor="middle" fill="#666" font-size="10">一码共治入口</text>
+  <text x="277" y="738" text-anchor="middle" fill="#666" font-size="10">扫码采集·报修·缴费</text>
+  <text x="277" y="754" font-size="9" text-anchor="middle" fill="#999">"数字身份证"</text>
+
+  <rect x="350" y="678" width="125" height="82" rx="8" fill="white" stroke="#a3d9b1" stroke-width="1.5"/>
+  <text x="412" y="703" text-anchor="middle" fill="#1e8449" font-size="12" font-weight="bold">电子地图</text>
+  <text x="412" y="720" text-anchor="middle" fill="#666" font-size="10">GIS时空底座</text>
+  <text x="412" y="738" text-anchor="middle" fill="#666" font-size="10">一张图·三维建模</text>
+  <text x="412" y="754" font-size="9" text-anchor="middle" fill="#999">天地图+高德/百度</text>
+
+  <rect x="485" y="678" width="125" height="82" rx="8" fill="white" stroke="#a3d9b1" stroke-width="1.5"/>
+  <text x="547" y="703" text-anchor="middle" fill="#1e8449" font-size="12" font-weight="bold">无人机</text>
+  <text x="547" y="720" text-anchor="middle" fill="#666" font-size="10">自动巡飞·AI识别</text>
+  <text x="547" y="738" text-anchor="middle" fill="#666" font-size="10">自动机库·航线规划</text>
+  <text x="547" y="754" font-size="9" text-anchor="middle" fill="#999">空地一体协同</text>
+
+  <rect x="620" y="678" width="125" height="82" rx="8" fill="white" stroke="#a3d9b1" stroke-width="1.5"/>
+  <text x="682" y="703" text-anchor="middle" fill="#1e8449" font-size="12" font-weight="bold">融合通讯终端</text>
+  <text x="682" y="720" text-anchor="middle" fill="#666" font-size="10">视频会议·公网对讲</text>
+  <text x="682" y="738" text-anchor="middle" fill="#666" font-size="10">无人机图传接入</text>
+  <text x="682" y="754" font-size="9" text-anchor="middle" fill="#999">统一指挥调度</text>
+
+  <!-- N label -->
+  <rect x="42" y="725" width="24" height="46" rx="6" fill="#27ae60"/>
+  <text x="54" y="753" text-anchor="middle" fill="white" font-size="16" font-weight="bold">N</text>
+
+  <!-- RIGHT: 本地政务类 -->
+  <rect x="800" y="630" width="740" height="230" rx="10" fill="#fef9e7" stroke="#e67e22" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="800" y="630" width="740" height="36" rx="10" fill="#d35400"/>
+  <rect x="800" y="650" width="740" height="16" fill="#d35400"/>
+  <text x="1170" y="654" text-anchor="middle" fill="white" font-size="14" font-weight="bold">本地政务类 —— 深度对接本地工作平台，实现治理任务与民生服务无缝闭环</text>
+
+  <!-- 4 Gov Cards -->
+  <rect x="820" y="678" width="165" height="108" rx="8" fill="white" stroke="#f0b080" stroke-width="1.5"/>
+  <text x="902" y="703" text-anchor="middle" fill="#d35400" font-size="13" font-weight="bold">赣政通</text>
+  <text x="902" y="722" text-anchor="middle" fill="#666" font-size="10">任务推送·待办中心</text>
+  <text x="902" y="739" text-anchor="middle" fill="#666" font-size="10">公文流转·督查督办</text>
+  <text x="902" y="756" text-anchor="middle" fill="#666" font-size="10">"前店后厂"后台办理</text>
+  <text x="902" y="773" text-anchor="middle" fill="#666" font-size="10">待办中心打通·身份互信</text>
+  <text x="902" y="788" fill="#999" font-size="9" text-anchor="middle">← 任务状态双向同步 →</text>
+
+  <rect x="998" y="678" width="165" height="108" rx="8" fill="white" stroke="#f0b080" stroke-width="1.5"/>
+  <text x="1080" y="703" text-anchor="middle" fill="#d35400" font-size="13" font-weight="bold">赣服通</text>
+  <text x="1080" y="722" text-anchor="middle" fill="#666" font-size="10">群众诉求入口</text>
+  <text x="1080" y="739" text-anchor="middle" fill="#666" font-size="10">"码上反映"·一键投诉</text>
+  <text x="1080" y="756" text-anchor="middle" fill="#666" font-size="10">便民服务掌上办理</text>
+  <text x="1080" y="773" text-anchor="middle" fill="#666" font-size="10">诉求互通·结果回传</text>
+  <text x="1080" y="788" fill="#999" font-size="9" text-anchor="middle">← 一码共治入口 →</text>
+
+  <rect x="1176" y="678" width="165" height="108" rx="8" fill="white" stroke="#f0b080" stroke-width="1.5"/>
+  <text x="1258" y="703" text-anchor="middle" fill="#d35400" font-size="13" font-weight="bold">E呼即办</text>
+  <text x="1258" y="722" text-anchor="middle" fill="#666" font-size="10">民生诉求联动处置</text>
+  <text x="1258" y="739" text-anchor="middle" fill="#666" font-size="10">"12530"快速响应</text>
+  <text x="1258" y="756" text-anchor="middle" fill="#666" font-size="10">三网融合·部门联动</text>
+  <text x="1258" y="773" text-anchor="middle" fill="#666" font-size="10">工单同步·地址匹配</text>
+  <text x="1258" y="788" fill="#999" font-size="9" text-anchor="middle">← 融合通讯联动 →</text>
+
+  <rect x="1354" y="678" width="168" height="108" rx="8" fill="white" stroke="#f0b080" stroke-width="1.5"/>
+  <text x="1438" y="703" text-anchor="middle" fill="#d35400" font-size="13" font-weight="bold">房屋维修基金平台</text>
+  <text x="1438" y="722" text-anchor="middle" fill="#666" font-size="10">维修基金缴存查询</text>
+  <text x="1438" y="739" text-anchor="middle" fill="#666" font-size="10">居民扫码报修派单</text>
+  <text x="1438" y="756" text-anchor="middle" fill="#666" font-size="10">资金使用透明公示</text>
+  <text x="1438" y="773" text-anchor="middle" fill="#666" font-size="10">数据互通·流程联动</text>
+  <text x="1438" y="788" fill="#999" font-size="9" text-anchor="middle">← 维修闭环 →</text>
+
+  <!-- N label -->
+  <rect x="785" y="725" width="24" height="46" rx="6" fill="#e67e22"/>
+  <text x="797" y="753" text-anchor="middle" fill="white" font-size="16" font-weight="bold">N</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- Layer 1: 1个基础平台 -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="20" y="875" width="1560" height="30" fill="#e8edf5" rx="4"/>
+  <text x="800" y="895" text-anchor="middle" fill="#2b579a" font-size="13" font-weight="bold">第一层：1个基础平台（Platform）—— 共性能力中台，治理数字化与数据资产化的统一底座（公司自主研发）</text>
+
+  <!-- Base Platform Container -->
+  <rect x="60" y="918" width="1480" height="200" rx="12" fill="url(#gradBase)" filter="url(#shadowDeep)"/>
+  <text x="800" y="948" text-anchor="middle" fill="#ffd700" font-size="18" font-weight="bold">基础平台（共性能力中台）</text>
+  <text x="800" y="970" text-anchor="middle" fill="#c0d4f0" font-size="11.5">通过统一门户、数据中台、GIS底座、融合通讯、低代码引擎、AI开放平台，为上层生态与场景提供标准化共性能力</text>
+
+  <!-- 6 Platform Module Cards -->
+  <rect x="80" y="988" width="222" height="56" rx="8" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="191" y="1009" text-anchor="middle" fill="white" font-size="12" font-weight="bold">统一门户与身份认证</text>
+  <text x="191" y="1029" text-anchor="middle" fill="#c0d4f0" font-size="10">五级组织一体化实名 · 赣政通互信登录</text>
+
+  <rect x="316" y="988" width="222" height="56" rx="8" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="427" y="1009" text-anchor="middle" fill="white" font-size="12" font-weight="bold">数据中台与治理数据湖</text>
+  <text x="427" y="1029" text-anchor="middle" fill="#c0d4f0" font-size="10">人·地·事·物·组织要素标准化数据模型</text>
+
+  <rect x="552" y="988" width="222" height="56" rx="8" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="663" y="1009" text-anchor="middle" fill="white" font-size="12" font-weight="bold">时空地理信息GIS底座</text>
+  <text x="663" y="1029" text-anchor="middle" fill="#c0d4f0" font-size="10">电子地图·无人机·门牌坐标一张图作战</text>
+
+  <rect x="788" y="988" width="222" height="56" rx="8" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="899" y="1009" text-anchor="middle" fill="white" font-size="12" font-weight="bold">融合通信调度引擎</text>
+  <text x="899" y="1029" text-anchor="middle" fill="#c0d4f0" font-size="10">视频会议·公网对讲·图传直播·统一调度</text>
+
+  <rect x="1024" y="988" width="222" height="56" rx="8" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="1135" y="1009" text-anchor="middle" fill="white" font-size="12" font-weight="bold">低代码流程与表单引擎</text>
+  <text x="1135" y="1029" text-anchor="middle" fill="#c0d4f0" font-size="10">街道社区快速搭建个性化处置流程与报表</text>
+
+  <rect x="1260" y="988" width="265" height="56" rx="8" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="1392" y="1009" text-anchor="middle" fill="white" font-size="12" font-weight="bold">智能能力开放平台</text>
+  <text x="1392" y="1029" text-anchor="middle" fill="#c0d4f0" font-size="10">统一接入AI服务 · 对外开放API供生态调用</text>
+
+  <!-- Bottom key line -->
+  <text x="800" y="1082" text-anchor="middle" fill="#c0d4f0" font-size="11">数据本地化 · 国标地址编码 GB/T 35639-2017 · 一标三实底座（标准地址 + 实有人口 + 实有房屋 + 实有单位）</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- Side Labels -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="4" y="140" width="36" height="150" rx="6" fill="#c0392b" opacity="0.85"/>
+  <text x="22" y="195" text-anchor="middle" fill="white" font-size="21" font-weight="bold">N</text>
+  <text x="22" y="220" text-anchor="middle" fill="white" font-size="10">治理</text>
+  <text x="22" y="235" text-anchor="middle" fill="white" font-size="10">场景</text>
+
+  <rect x="4" y="368" width="36" height="172" rx="6" fill="#8e44ad" opacity="0.85"/>
+  <text x="22" y="435" text-anchor="middle" fill="white" font-size="28" font-weight="bold">1</text>
+  <text x="22" y="460" text-anchor="middle" fill="white" font-size="10">AI赋</text>
+  <text x="22" y="475" text-anchor="middle" fill="white" font-size="10">能中</text>
+  <text x="22" y="490" text-anchor="middle" fill="white" font-size="10">心</text>
+
+  <rect x="4" y="630" width="28" height="230" rx="6" fill="#27ae60" opacity="0.85"/>
+  <text x="18" y="725" text-anchor="middle" fill="white" font-size="21" font-weight="bold">N</text>
+  <text x="18" y="750" text-anchor="middle" fill="white" font-size="10">生态</text>
+  <text x="18" y="765" text-anchor="middle" fill="white" font-size="10">平台</text>
+
+  <rect x="4" y="918" width="28" height="200" rx="6" fill="#1a3a5c" opacity="0.85"/>
+  <text x="18" y="1000" text-anchor="middle" fill="white" font-size="28" font-weight="bold">1</text>
+  <text x="18" y="1025" text-anchor="middle" fill="white" font-size="10">基础</text>
+  <text x="18" y="1040" text-anchor="middle" fill="white" font-size="10">平台</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- Footer: Service Goals -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="20" y="1136" width="1560" height="30" fill="#1a3a5c" rx="4"/>
+  <text x="800" y="1156" text-anchor="middle" fill="#ffd700" font-size="13" font-weight="bold">服务目标：分层次、分阶段推进 —— 近期（1-2年）社会治理为主 → 孵化（3-5年）数字经济</text>
+
+  <!-- 4 Goal Boxes -->
+  <rect x="80" y="1180" width="330" height="48" rx="8" fill="#f0f8ff" stroke="#2b579a" stroke-width="2" filter="url(#shadow)"/>
+  <text x="245" y="1200" text-anchor="middle" fill="#1a3a5c" font-size="14" font-weight="bold">基层减负</text>
+  <text x="245" y="1218" text-anchor="middle" fill="#666" font-size="10.5">表单填报↓50% · 事务性时间↓30% · AI自动生成</text>
+
+  <rect x="440" y="1180" width="330" height="48" rx="8" fill="#f0f8ff" stroke="#2b579a" stroke-width="2" filter="url(#shadow)"/>
+  <text x="605" y="1200" text-anchor="middle" fill="#1a3a5c" font-size="14" font-weight="bold">协同治理</text>
+  <text x="605" y="1218" text-anchor="middle" fill="#666" font-size="10.5">跨层级跨部门闭环 · "一声哨响、部门报到"</text>
+
+  <rect x="800" y="1180" width="330" height="48" rx="8" fill="#f0f8ff" stroke="#2b579a" stroke-width="2" filter="url(#shadow)"/>
+  <text x="965" y="1200" text-anchor="middle" fill="#1a3a5c" font-size="14" font-weight="bold">数据要素</text>
+  <text x="965" y="1218" text-anchor="middle" fill="#666" font-size="10.5">沉淀人·房·事"块数据" · 数据资产原始积累</text>
+
+  <rect x="1160" y="1180" width="360" height="48" rx="8" fill="#f0f8ff" stroke="#2b579a" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1340" y="1200" text-anchor="middle" fill="#1a3a5c" font-size="14" font-weight="bold">数字经济（孵化）</text>
+  <text x="1340" y="1218" text-anchor="middle" fill="#666" font-size="10.5">数据产品化 · 产业生态簇群 · "治理↔经济"价值循环</text>
+
+  <text x="800" y="1260" text-anchor="middle" fill="#aaa" font-size="9">基层智治综合协同平台 · 产品方案书 V2.0 · 1+N+1+N (PFAS) 架构</text>
+</svg>
+</body>
+</html>
