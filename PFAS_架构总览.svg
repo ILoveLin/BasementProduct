@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 960">
+<style>text{font-family:"Helvetica Neue",Helvetica,Arial,"PingFang SC","Microsoft YaHei",sans-serif}</style>
+<defs><marker id="ab" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#2563eb"/></marker><marker id="au" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto"><polygon points="10 0,0 3.5,10 7" fill="#2563eb"/></marker><filter id="sh"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.06"/></filter></defs>
+<rect width="1200" height="960" fill="#ffffff"/>
+<text x="600" y="36" text-anchor="middle" font-size="20" font-weight="600" fill="#111827">"1+N+1+N"（PFAS）基层智治综合协同平台 · 总体架构</text>
+<rect x="30" y="55" width="1140" height="140" rx="8" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5" filter="url(#sh)"/>
+<text x="50" y="79" font-size="13" font-weight="600" fill="#6d28d9">N个治理场景（Scenarios）—— 面向角色、面向业务的复合应用层</text>
+<rect x="100" y="97" width="235" height="78" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="217" y="123" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">公安治理</text>
+<text x="217" y="145" text-anchor="middle" font-size="11" fill="#6b7280">角色化视图 · 模块组合复用</text>
+<text x="217" y="162" text-anchor="middle" font-size="10" fill="#9ca3af">AI赋能 + 生态联动</text>
+<rect x="355" y="97" width="235" height="78" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="472" y="123" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">住建物业管理</text>
+<text x="472" y="145" text-anchor="middle" font-size="11" fill="#6b7280">角色化视图 · 模块组合复用</text>
+<text x="472" y="162" text-anchor="middle" font-size="10" fill="#9ca3af">AI赋能 + 生态联动</text>
+<rect x="610" y="97" width="235" height="78" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="727" y="123" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">综治网格员</text>
+<text x="727" y="145" text-anchor="middle" font-size="11" fill="#6b7280">角色化视图 · 模块组合复用</text>
+<text x="727" y="162" text-anchor="middle" font-size="10" fill="#9ca3af">AI赋能 + 生态联动</text>
+<rect x="865" y="97" width="235" height="78" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="982" y="123" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">街道社区</text>
+<text x="982" y="145" text-anchor="middle" font-size="11" fill="#6b7280">角色化视图 · 模块组合复用</text>
+<text x="982" y="162" text-anchor="middle" font-size="10" fill="#9ca3af">AI赋能 + 生态联动</text>
+<line x1="600" y1="195" x2="600" y2="215" stroke="#2563eb" stroke-width="1.5" marker-end="url(#ab)"/>
+<rect x="586" y="201" width="28" height="14" rx="3" fill="#ffffff" opacity="0.95"/><text x="600" y="211" text-anchor="middle" font-size="9" fill="#2563eb">调用</text>
+<line x1="635" y1="215" x2="635" y2="195" stroke="#2563eb" stroke-width="1.5" marker-end="url(#au)"/>
+<rect x="621" y="201" width="28" height="14" rx="3" fill="#ffffff" opacity="0.95"/><text x="635" y="211" text-anchor="middle" font-size="9" fill="#2563eb">反馈</text>
+<rect x="30" y="215" width="1140" height="180" rx="8" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5" filter="url(#sh)"/>
+<text x="50" y="239" font-size="13" font-weight="600" fill="#d97706">1个AI赋能中心（AI）—— 基层治理AI工作台</text>
+<rect x="55" y="253" width="1090" height="32" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1"/>
+<text x="600" y="274" text-anchor="middle" font-size="11" font-weight="600" fill="#92400e">AI运营中心：人工修正->自动学习 | Agent质量看板 | 知识库自动更新 | AI闭眼机制 | 减负成效可视化</text>
+<rect x="65" y="295" width="195" height="48" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="162" y="315" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">采集Agent</text>
+<text x="162" y="333" text-anchor="middle" font-size="10" fill="#6b7280">口述即录入</text>
+<rect x="275" y="295" width="195" height="48" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="372" y="315" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">巡查Agent</text>
+<text x="372" y="333" text-anchor="middle" font-size="10" fill="#6b7280">AR+AI识别</text>
+<rect x="485" y="295" width="195" height="48" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="582" y="315" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">调解Agent</text>
+<text x="582" y="333" text-anchor="middle" font-size="10" fill="#6b7280">随身法律顾问</text>
+<rect x="695" y="295" width="195" height="48" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="792" y="315" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">分拨Agent</text>
+<text x="792" y="333" text-anchor="middle" font-size="10" fill="#6b7280">秒级精准派单</text>
+<rect x="905" y="295" width="195" height="48" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="1002" y="315" text-anchor="middle" font-size="12" font-weight="600" fill="#111827">预判Agent</text>
+<text x="1002" y="333" text-anchor="middle" font-size="10" fill="#6b7280">治理天气预报</text>
+<rect x="150" y="353" width="900" height="28" rx="6" fill="#fef3c7" stroke="#fcd34d" stroke-width="1"/>
+<text x="600" y="372" text-anchor="middle" font-size="11" fill="#92400e">AI能力底座：大模型（LLM） | 语音转写（ASR） | 文字识别（OCR） | 视觉识别（CV）—— 政务云本地化部署</text>
+<line x1="600" y1="395" x2="600" y2="415" stroke="#2563eb" stroke-width="1.5" marker-end="url(#ab)"/>
+<rect x="578" y="401" width="44" height="14" rx="3" fill="#ffffff" opacity="0.95"/><text x="600" y="411" text-anchor="middle" font-size="9" fill="#2563eb">调用/注入</text>
+<line x1="635" y1="415" x2="635" y2="395" stroke="#2563eb" stroke-width="1.5" marker-end="url(#au)"/>
+<rect x="621" y="401" width="28" height="14" rx="3" fill="#ffffff" opacity="0.95"/><text x="635" y="411" text-anchor="middle" font-size="9" fill="#2563eb">反馈</text>
+<rect x="30" y="415" width="1140" height="220" rx="8" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.5" filter="url(#sh)"/>
+<text x="50" y="439" font-size="13" font-weight="600" fill="#047857">N个生态平台（Federation）—— 能力模块集合，即插即用</text>
+<text x="65" y="467" font-size="12" font-weight="600" fill="#065f46">智能硬件类（7个）</text>
+<rect x="55" y="479" width="140" height="42" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="125" y="505" text-anchor="middle" font-size="11" font-weight="600" fill="#111827">AI眼镜</text>
+<rect x="203" y="479" width="140" height="42" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="273" y="505" text-anchor="middle" font-size="11" font-weight="600" fill="#111827">无人机自动巡飞</text>
+<rect x="351" y="479" width="140" height="42" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="421" y="505" text-anchor="middle" font-size="11" font-weight="600" fill="#111827">二维码门牌</text>
+<rect x="499" y="479" width="140" height="42" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="569" y="505" text-anchor="middle" font-size="11" font-weight="600" fill="#111827">融合通讯终端</text>
+<rect x="647" y="479" width="140" height="42" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="717" y="505" text-anchor="middle" font-size="11" font-weight="600" fill="#111827">IoT传感器网络</text>
+<rect x="795" y="479" width="140" height="42" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="865" y="505" text-anchor="middle" font-size="11" font-weight="600" fill="#111827">AI智能监控摄像头</text>
+<rect x="943" y="479" width="140" height="42" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="1013" y="505" text-anchor="middle" font-size="11" font-weight="600" fill="#111827">北斗定位关爱终端</text>
+<text x="65" y="552" font-size="12" font-weight="600" fill="#065f46">本地政务软件类（4个）</text>
+<rect x="55" y="564" width="248" height="48" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="179" y="586" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">赣政通</text>
+<text x="179" y="604" text-anchor="middle" font-size="10" fill="#6b7280">任务推送与协同办公</text>
+<rect x="315" y="564" width="248" height="48" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="439" y="586" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">E呼即办</text>
+<text x="439" y="604" text-anchor="middle" font-size="10" fill="#6b7280">民生诉求联动（12530）</text>
+<rect x="575" y="564" width="248" height="48" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="699" y="586" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">智慧调度指挥系统</text>
+<text x="699" y="604" text-anchor="middle" font-size="10" fill="#6b7280">智能分拨 · 资源优化配置</text>
+<rect x="835" y="564" width="248" height="48" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="959" y="586" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">基层治理效能评估系统</text>
+<text x="959" y="604" text-anchor="middle" font-size="10" fill="#6b7280">数字体检师 · 减负可视化</text>
+<line x1="600" y1="635" x2="600" y2="655" stroke="#2563eb" stroke-width="1.5" marker-end="url(#ab)"/>
+<rect x="586" y="641" width="28" height="14" rx="3" fill="#ffffff" opacity="0.95"/><text x="600" y="651" text-anchor="middle" font-size="9" fill="#2563eb">调用</text>
+<line x1="635" y1="655" x2="635" y2="635" stroke="#2563eb" stroke-width="1.5" marker-end="url(#au)"/>
+<rect x="621" y="641" width="28" height="14" rx="3" fill="#ffffff" opacity="0.95"/><text x="635" y="651" text-anchor="middle" font-size="9" fill="#2563eb">反馈</text>
+<rect x="30" y="655" width="1140" height="155" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5" filter="url(#sh)"/>
+<text x="50" y="679" font-size="13" font-weight="600" fill="#1d4ed8">1个基础平台（Platform）—— 共性能力中台</text>
+<rect x="55" y="695" width="255" height="96" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="182" y="719" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">数据中台与治理数据湖</text>
+<text x="182" y="743" text-anchor="middle" font-size="11" fill="#6b7280">一标三实数据模型</text>
+<text x="182" y="765" text-anchor="middle" font-size="11" fill="#6b7280">多源汇聚·治理清洗·鲜活度维护</text>
+<rect x="325" y="695" width="255" height="96" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="452" y="719" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">时空地理信息GIS底座</text>
+<text x="452" y="743" text-anchor="middle" font-size="11" fill="#6b7280">天地图·多图层叠加</text>
+<text x="452" y="765" text-anchor="middle" font-size="11" fill="#6b7280">空间分析·三维数字底座</text>
+<rect x="595" y="695" width="255" height="96" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="722" y="719" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">周边（地址关联智能推送）</text>
+<text x="722" y="743" text-anchor="middle" font-size="11" fill="#6b7280">扫码即得地址全息画像</text>
+<text x="722" y="765" text-anchor="middle" font-size="11" fill="#6b7280">巡查针对性提升60%</text>
+<rect x="865" y="695" width="255" height="96" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="992" y="719" text-anchor="middle" font-size="13" font-weight="600" fill="#111827">格友圈/协同圈</text>
+<text x="992" y="743" text-anchor="middle" font-size="11" fill="#6b7280">工作人员协同·居民互动</text>
+<text x="992" y="765" text-anchor="middle" font-size="11" fill="#6b7280">协同周期缩短66%</text>
+<text x="1175" y="490" text-anchor="middle" font-size="10" fill="#9ca3af" transform="rotate(90,1175,490)">数据统一汇入    按需同步至各部门</text>
+<text x="50" y="845" font-size="11" font-weight="600" fill="#6b7280">图例</text>
+<rect x="100" y="833" width="18" height="18" rx="4" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+<text x="126" y="845" font-size="11" fill="#6b7280">P: 基础平台</text>
+<rect x="310" y="833" width="18" height="18" rx="4" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1"/>
+<text x="336" y="845" font-size="11" fill="#6b7280">F: 生态平台（7硬件+4软件）</text>
+<rect x="520" y="833" width="18" height="18" rx="4" fill="#fffbeb" stroke="#fcd34d" stroke-width="1"/>
+<text x="546" y="845" font-size="11" fill="#6b7280">A: AI赋能中心（5 Agent）</text>
+<rect x="730" y="833" width="18" height="18" rx="4" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1"/>
+<text x="756" y="845" font-size="11" fill="#6b7280">S: 治理场景（4个）</text>
+<text x="980" y="845" font-size="11" fill="#9ca3af">厚底座 · 活生态 · 强智能 · 多场景</text>
+</svg>

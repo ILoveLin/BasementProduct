@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Microsoft YaHei, SimHei, sans-serif">
+<defs><filter id="s"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.08"/></filter>
+<marker id="au" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#a855f7"/></marker>
+<marker id="ad" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#7c3aed"/></marker>
+<marker id="ag" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#059669"/></marker></defs>
+<rect width="1200" height="700" fill="#ffffff"/>
+<text x="600" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#1e293b">第二个"1"：AI赋能中心（AI）—— 基层治理AI工作台</text>
+<text x="600" y="58" text-anchor="middle" font-size="12" fill="#7c3aed">三层AI体系：能力底座 + 专题Agent工厂 + AI运营中心</text>
+<rect x="60" y="85" width="1080" height="140" rx="12" fill="#faf5ff" stroke="#a855f7" stroke-width="2.5" filter="url(#s)"/>
+<rect x="60" y="85" width="1080" height="40" rx="12" fill="#a855f7"/>
+<rect x="60" y="113" width="1080" height="12" fill="#a855f7"/>
+<text x="600" y="112" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">第三层：AI运营中心 —— 持续学习，越用越聪明</text>
+<rect x="80" y="137" width="245" height="80" rx="8" fill="#ffffff" stroke="#d8b4fe" stroke-width="1.5" filter="url(#s)"/>
+<text x="202" y="157" text-anchor="middle" font-size="13" font-weight="bold" fill="#7c3aed">人工修正→自动学习</text>
+<text x="202" y="177" text-anchor="middle" font-size="10" fill="#6b21a8">每次人工修改AI建议</text>
+<text x="202" y="194" text-anchor="middle" font-size="10" fill="#6b21a8">自动记录为训练样本</text>
+<text x="202" y="211" text-anchor="middle" font-size="10" fill="#6b21a8">同场景修改>3次触发优化</text>
+<rect x="345" y="137" width="245" height="80" rx="8" fill="#ffffff" stroke="#d8b4fe" stroke-width="1.5" filter="url(#s)"/>
+<text x="467" y="157" text-anchor="middle" font-size="13" font-weight="bold" fill="#7c3aed">Agent质量看板</text>
+<text x="467" y="177" text-anchor="middle" font-size="10" fill="#6b21a8">准确率 | 采纳率 | 减负时长</text>
+<text x="467" y="194" text-anchor="middle" font-size="10" fill="#6b21a8">实时可见，领导大屏展示</text>
+<text x="467" y="211" text-anchor="middle" font-size="10" fill="#6b21a8">AI价值量化可考核</text>
+<rect x="610" y="137" width="245" height="80" rx="8" fill="#ffffff" stroke="#d8b4fe" stroke-width="1.5" filter="url(#s)"/>
+<text x="732" y="157" text-anchor="middle" font-size="13" font-weight="bold" fill="#7c3aed">知识库自动更新</text>
+<text x="732" y="177" text-anchor="middle" font-size="10" fill="#6b21a8">新政策发布→AI自动解析</text>
+<text x="732" y="194" text-anchor="middle" font-size="10" fill="#6b21a8">历史案例结案→自动归档</text>
+<text x="732" y="211" text-anchor="middle" font-size="10" fill="#6b21a8">知识库永远保持最新版本</text>
+<rect x="875" y="137" width="245" height="80" rx="8" fill="#ffffff" stroke="#d8b4fe" stroke-width="1.5" filter="url(#s)"/>
+<text x="997" y="157" text-anchor="middle" font-size="13" font-weight="bold" fill="#7c3aed">AI「闭眼」机制</text>
+<text x="997" y="177" text-anchor="middle" font-size="10" fill="#6b21a8">准确率&lt;85%：仅建议</text>
+<text x="997" y="194" text-anchor="middle" font-size="10" fill="#6b21a8">准确率&lt;70%：自动暂停</text>
+<text x="997" y="211" text-anchor="middle" font-size="10" fill="#6b21a8">不行的时候不添乱</text>
+<rect x="60" y="245" width="1080" height="210" rx="12" fill="#ffffff" stroke="#a855f7" stroke-width="2.5" filter="url(#s)"/>
+<rect x="60" y="245" width="1080" height="40" rx="12" fill="#9333ea"/>
+<rect x="60" y="273" width="1080" height="12" fill="#9333ea"/>
+<text x="600" y="272" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">第二层：专题Agent工厂 —— "1个场景1个Agent"</text>
+<rect x="75" y="295" width="190" height="150" rx="10" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1.5" filter="url(#s)"/>
+<rect x="125" y="295" width="90" height="22" rx="11" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+<text x="170" y="310" text-anchor="middle" font-size="9" font-weight="bold" fill="#22c55e">第一阶段
+0-3个月</text>
+<text x="170" y="335" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b21a8">采集Agent</text>
+<text x="170" y="353" text-anchor="middle" font-size="11" fill="#7c3aed">口述即录入</text>
+<text x="170" y="373" text-anchor="middle" font-size="10" fill="#475569">ASR+NLU+LLM</text>
+<text x="170" y="389" text-anchor="middle" font-size="10" fill="#475569">双向对话式采集</text>
+<text x="170" y="405" text-anchor="middle" font-size="10" fill="#475569">静默模式：零录入</text>
+<rect x="280" y="295" width="190" height="150" rx="10" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1.5" filter="url(#s)"/>
+<rect x="330" y="295" width="90" height="22" rx="11" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+<text x="375" y="310" text-anchor="middle" font-size="9" font-weight="bold" fill="#22c55e">第一阶段
+0-3个月</text>
+<text x="375" y="335" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b21a8">巡查Agent</text>
+<text x="375" y="353" text-anchor="middle" font-size="11" fill="#7c3aed">AR+AI大脑</text>
+<text x="375" y="373" text-anchor="middle" font-size="10" fill="#475569">CV+知识图谱</text>
+<text x="375" y="389" text-anchor="middle" font-size="10" fill="#475569">实时识别隐患</text>
+<text x="375" y="405" text-anchor="middle" font-size="10" fill="#475569">越查越准</text>
+<rect x="485" y="295" width="190" height="150" rx="10" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1.5" filter="url(#s)"/>
+<rect x="535" y="295" width="90" height="22" rx="11" fill="#f59e0b20" stroke="#f59e0b" stroke-width="1"/>
+<text x="580" y="310" text-anchor="middle" font-size="9" font-weight="bold" fill="#f59e0b">第二阶段
+3-6个月</text>
+<text x="580" y="335" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b21a8">调解Agent</text>
+<text x="580" y="353" text-anchor="middle" font-size="11" fill="#7c3aed">随身法律顾问</text>
+<text x="580" y="373" text-anchor="middle" font-size="10" fill="#475569">RAG+案例推理</text>
+<text x="580" y="389" text-anchor="middle" font-size="10" fill="#475569">三件套推送</text>
+<text x="580" y="405" text-anchor="middle" font-size="10" fill="#475569">调解模拟器</text>
+<rect x="690" y="295" width="190" height="150" rx="10" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1.5" filter="url(#s)"/>
+<rect x="740" y="295" width="90" height="22" rx="11" fill="#f59e0b20" stroke="#f59e0b" stroke-width="1"/>
+<text x="785" y="310" text-anchor="middle" font-size="9" font-weight="bold" fill="#f59e0b">第二阶段
+3-6个月</text>
+<text x="785" y="335" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b21a8">分拨Agent</text>
+<text x="785" y="353" text-anchor="middle" font-size="11" fill="#7c3aed">秒级精准派单</text>
+<text x="785" y="373" text-anchor="middle" font-size="10" fill="#475569">NLU+规则引擎</text>
+<text x="785" y="389" text-anchor="middle" font-size="10" fill="#475569">预判式分拨</text>
+<text x="785" y="405" text-anchor="middle" font-size="10" fill="#475569">协同建议</text>
+<rect x="895" y="295" width="190" height="150" rx="10" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1.5" filter="url(#s)"/>
+<rect x="945" y="295" width="90" height="22" rx="11" fill="#ef444420" stroke="#ef4444" stroke-width="1"/>
+<text x="990" y="310" text-anchor="middle" font-size="9" font-weight="bold" fill="#ef4444">第三阶段
+6-12个月</text>
+<text x="990" y="335" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b21a8">预判Agent</text>
+<text x="990" y="353" text-anchor="middle" font-size="11" fill="#7c3aed">治理天气预报</text>
+<text x="990" y="373" text-anchor="middle" font-size="10" fill="#475569">时序+空间+因果</text>
+<text x="990" y="389" text-anchor="middle" font-size="10" fill="#475569">风险热力预报</text>
+<text x="990" y="405" text-anchor="middle" font-size="10" fill="#475569">未呼先办</text>
+<rect x="60" y="475" width="1080" height="90" rx="12" fill="#f3e8ff" stroke="#a855f7" stroke-width="2.5" filter="url(#s)"/>
+<rect x="60" y="475" width="1080" height="40" rx="12" fill="#7c3aed"/>
+<rect x="60" y="503" width="1080" height="12" fill="#7c3aed"/>
+<text x="600" y="502" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">第一层：AI能力底座 —— 政务云本地化部署，数据不出域</text>
+<rect x="150" y="527" width="200" height="28" rx="14" fill="#8b5cf6" opacity="0.15" stroke="#8b5cf6" stroke-width="1.5"/>
+<text x="250" y="541" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b5cf6">大模型 | (LLM)</text>
+<rect x="390" y="527" width="200" height="28" rx="14" fill="#7c3aed" opacity="0.15" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="490" y="541" text-anchor="middle" font-size="12" font-weight="bold" fill="#7c3aed">语音转写 | (ASR)</text>
+<rect x="630" y="527" width="200" height="28" rx="14" fill="#6d28d9" opacity="0.15" stroke="#6d28d9" stroke-width="1.5"/>
+<text x="730" y="541" text-anchor="middle" font-size="12" font-weight="bold" fill="#6d28d9">文字识别 | (OCR)</text>
+<rect x="870" y="527" width="200" height="28" rx="14" fill="#5b21b6" opacity="0.15" stroke="#5b21b6" stroke-width="1.5"/>
+<text x="970" y="541" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">视觉分析 | (CV)</text>
+<line x1="1160" y1="475" x2="1160" y2="455" stroke="#a855f7" stroke-width="2" marker-end="url(#au)" stroke-dasharray="6,3"/>
+<text x="1170" y="565" text-anchor="start" font-size="9" fill="#a855f7">能力支撑</text>
+<line x1="1160" y1="245" x2="1160" y2="225" stroke="#7c3aed" stroke-width="2" marker-end="url(#ad)" stroke-dasharray="6,3"/>
+<text x="1170" y="335" text-anchor="start" font-size="9" fill="#7c3aed">质量反馈</text>
+<line x1="20" y1="225" x2="20" y2="475" stroke="#059669" stroke-width="1.5" marker-end="url(#ag)" stroke-dasharray="4,4"/>
+<text x="26" y="400" text-anchor="start" font-size="9" fill="#059669" transform="rotate(-90, 26, 400)">数据驱动 · 持续优化</text>
+<text x="1185" y="155" text-anchor="middle" font-size="11" fill="#a855f7" font-weight="bold">运营层</text>
+<text x="1185" y="350" text-anchor="middle" font-size="11" fill="#9333ea" font-weight="bold">产品层</text>
+<text x="1185" y="520" text-anchor="middle" font-size="11" fill="#7c3aed" font-weight="bold">基础层</text>
+<rect x="60" y="585" width="580" height="38" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="72" y="602" font-size="10" font-weight="bold" fill="#64748b">图例：</text>
+<rect x="120" y="594" width="16" height="12" rx="3" fill="#22c55e20" stroke="#22c55e" stroke-width="1"/>
+<text x="142" y="604" font-size="9" fill="#64748b">第一阶段(0-3月)</text>
+<rect x="260" y="594" width="16" height="12" rx="3" fill="#f59e0b20" stroke="#f59e0b" stroke-width="1"/>
+<text x="282" y="604" font-size="9" fill="#64748b">第二阶段(3-6月)</text>
+<rect x="400" y="594" width="16" height="12" rx="3" fill="#ef444420" stroke="#ef4444" stroke-width="1"/>
+<text x="422" y="604" font-size="9" fill="#64748b">第三阶段(6-12月)</text>
+<line x1="530" y1="600" x2="555" y2="600" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="4,2"/>
+<text x="560" y="604" font-size="9" fill="#64748b">能力支撑</text>
+<line x1="610" y1="600" x2="635" y2="600" stroke="#059669" stroke-width="1.5" stroke-dasharray="3,3"/>
+<text x="640" y="604" font-size="9" fill="#64748b">数据驱动</text>
+<text x="600" y="650" text-anchor="middle" font-size="10" fill="#94a3b8">五个专题Agent覆盖基层工作全流程：采集→巡查→调解→分拨→预判 | 分三阶段落地，运营重于建设</text>
+</svg>
