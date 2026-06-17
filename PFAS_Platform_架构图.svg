@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" font-family="Microsoft YaHei, SimHei, sans-serif">
+<defs>
+<filter id="s"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.08"/></filter>
+<filter id="sd"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.12"/></filter>
+<marker id="adn" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#3b82f6"/></marker>
+</defs>
+<rect width="960" height="460" fill="#ffffff"/>
+<text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1e293b">Platform 基础平台 — 统一底座 · 三大引擎 + 两大协同</text>
+<text x="480" y="60" text-anchor="middle" font-size="13" fill="#64748b">底座之上运行三大核心引擎和两大协同能力，为上层提供数据、空间、事件流转、协同四大基础服务</text>
+<rect x="30" y="80" width="900" height="350" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="3" filter="url(#sd)"/>
+<rect x="30" y="80" width="900" height="44" rx="14" fill="#3b82f6"/>
+<rect x="30" y="110" width="900" height="14" fill="#3b82f6"/>
+<text x="480" y="110" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">Platform 统一底座（1 个基础平台）</text>
+<text x="55" y="152" font-size="12" font-weight="bold" fill="#1e40af">三大核心引擎</text>
+<rect x="50" y="160" width="275" height="95" rx="10" fill="#ffffff" stroke="#93c5fd" stroke-width="2" filter="url(#s)"/>
+<rect x="50" y="160" width="275" height="26" rx="10" fill="#dbeafe"/>
+<rect x="50" y="176" width="275" height="10" fill="#dbeafe"/>
+<text x="187" y="179" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e40af">① 数据中台与治理数据湖</text>
+<text x="187" y="202" text-anchor="middle" font-size="9.5" fill="#3b82f6">一标三实 · 多源汇聚</text>
+<text x="187" y="216" text-anchor="middle" font-size="9.5" fill="#3b82f6">数据治理 · 鲜活度维护</text>
+<text x="187" y="230" text-anchor="middle" font-size="9.5" fill="#3b82f6">数据资产沉淀</text>
+<text x="187" y="225" text-anchor="middle" font-size="8" fill="#64748b">以标准地址(GB/T 35639-2017)为锚点</text>
+<text x="187" y="237" text-anchor="middle" font-size="8" fill="#64748b">串联人-房-事-物-组织五要素</text>
+<text x="187" y="249" text-anchor="middle" font-size="8" fill="#64748b">一次采集、多方复用，终结数据孤岛</text>
+<rect x="345" y="160" width="275" height="95" rx="10" fill="#ffffff" stroke="#93c5fd" stroke-width="2" filter="url(#s)"/>
+<rect x="345" y="160" width="275" height="26" rx="10" fill="#dbeafe"/>
+<rect x="345" y="176" width="275" height="10" fill="#dbeafe"/>
+<text x="482" y="179" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e40af">② 时空地理信息GIS底座</text>
+<text x="482" y="202" text-anchor="middle" font-size="9.5" fill="#3b82f6">天地图 · 一张图作战</text>
+<text x="482" y="216" text-anchor="middle" font-size="9.5" fill="#3b82f6">空间分析 · 三维建模</text>
+<text x="482" y="230" text-anchor="middle" font-size="9.5" fill="#3b82f6">统一地址编码 · 电子围栏</text>
+<text x="482" y="225" text-anchor="middle" font-size="8" fill="#64748b">二维/三维地图渲染 · 人口热力</text>
+<text x="482" y="237" text-anchor="middle" font-size="8" fill="#64748b">事件分布 · 风险四色图叠加</text>
+<text x="482" y="249" text-anchor="middle" font-size="8" fill="#64748b">无人机航线管理 · 缓冲区分析</text>
+<rect x="640" y="160" width="275" height="95" rx="10" fill="#ffffff" stroke="#93c5fd" stroke-width="2" filter="url(#s)"/>
+<rect x="640" y="160" width="275" height="26" rx="10" fill="#dbeafe"/>
+<rect x="640" y="176" width="275" height="10" fill="#dbeafe"/>
+<text x="777" y="179" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e40af">③ 事件总线引擎</text>
+<text x="777" y="202" text-anchor="middle" font-size="9.5" fill="#3b82f6">发现→上报→分拨→处置→反馈→评价</text>
+<text x="777" y="225" text-anchor="middle" font-size="8" fill="#64748b">分权而非集权 · 全程可追溯</text>
+<text x="777" y="237" text-anchor="middle" font-size="8" fill="#64748b">弹性扩容（峰值不低于日常5倍）</text>
+<text x="777" y="249" text-anchor="middle" font-size="8" fill="#64748b">连接数据/感知/AI/场景的中枢神经</text>
+<line x1="187" y1="255" x2="187" y2="278" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#adn)" stroke-dasharray="4,2"/>
+<line x1="482" y1="255" x2="482" y2="278" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#adn)" stroke-dasharray="4,2"/>
+<line x1="777" y1="255" x2="777" y2="278" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#adn)" stroke-dasharray="4,2"/>
+<text x="55" y="300" font-size="12" font-weight="bold" fill="#1e40af">两大协同能力</text>
+<rect x="130" y="310" width="340" height="70" rx="10" fill="#ffffff" stroke="#93c5fd" stroke-width="2" filter="url(#s)"/>
+<rect x="130" y="310" width="340" height="26" rx="10" fill="#dbeafe"/>
+<rect x="130" y="326" width="340" height="10" fill="#dbeafe"/>
+<text x="300" y="329" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e40af">④ 周边（地址关联智能推送）</text>
+<text x="300" y="352" text-anchor="middle" font-size="10" fill="#475569">扫码得全息画像 · 角色差异化呈现 · 巡查针对性提升60%</text>
+<text x="300" y="370" text-anchor="middle" font-size="8" fill="#64748b">扫码门牌后自动关联推送地址周边的历史隐患、重点人员、独居老人等信息
+民警扫酒店→弹出消防隐患；网格员走访→提醒独居老人；城管扫码→占道经营历史</text>
+<rect x="490" y="310" width="340" height="70" rx="10" fill="#ffffff" stroke="#93c5fd" stroke-width="2" filter="url(#s)"/>
+<rect x="490" y="310" width="340" height="26" rx="10" fill="#dbeafe"/>
+<rect x="490" y="326" width="340" height="10" fill="#dbeafe"/>
+<text x="660" y="329" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e40af">⑤ 格友圈 / 协同圈（跨部门协同 + 居民互动）</text>
+<text x="660" y="352" text-anchor="middle" font-size="10" fill="#475569">格友圈 · 跨部门协同  —  邻里圈 · 居民自治  —  协同周期缩短66%</text>
+<text x="660" y="370" text-anchor="middle" font-size="8" fill="#64748b">格友圈：网格员一键共享工单→城管/市政/市监在同一事件页协同处置
+邻里圈：居民扫码进入本小区→邻里互助/二手交易/物业报修</text>
+<text x="940" y="250" text-anchor="middle" font-size="14" fill="#3b82f6" font-weight="bold">地基</text>
+<rect x="30" y="400" width="900" height="40" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+<text x="480" y="418" text-anchor="middle" font-size="10" fill="#64748b">三大引擎关系：数据中台管"数据怎么管" · GIS底座管"空间怎么定位" · 事件总线管"事情怎么流转"</text>
+<text x="480" y="433" text-anchor="middle" font-size="9" fill="#94a3b8">已在上饶三区县（广丰区·经开区·信州区）落地验证：采集效率↑80% · 派单准确率95%+ · 底数准确率99%+ · 重复劳动↓70%</text>
+</svg>
